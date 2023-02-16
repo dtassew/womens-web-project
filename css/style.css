@@ -3,7 +3,6 @@ body{
 	background-color: #1a374b;
 	font-size: 125%;
   color: white;
-  size: 1vh;
   line-height: 1.4;
 }
 
@@ -105,7 +104,6 @@ a {
 .grid div{
   border: 10px solid #2a2a2a;
   margin:25px 0px;
-  text-align: auto;
 }
 
 .grid h2{
