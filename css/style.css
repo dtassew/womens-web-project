@@ -1,0 +1,138 @@
+body{
+	padding: 10px;
+	background-color: #1a374b;
+	font-size: 125%;
+  color: white;
+  size: 1vh;
+  line-height: 1.4;
+}
+
+h1{
+  font-family: sans-serif;
+  padding: 0.3cm;
+  font-size: 4vw;
+  text-align: center;
+}
+
+h2{
+  font-family:sans-serif, Verdana, Geneva, Tahoma;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3{
+  font-size: 25px;
+  color:rgb(159, 198, 248);
+
+}
+
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:auto;
+  margin-bottom: 25px;
+}
+
+a{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+footer{
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
+
+img.about_pic{
+  width: 100%;
+  padding: 10px;
+  border-style: solid;
+  border-color: #2a2a2a;
+  border-width: 5px;
+}
+
+li{
+  display: inline-block;
+  padding-right: 5px;
+}
+
+nav a {
+  font-family: Arial;
+  color: white;
+}
+
+nav ul{
+  list-style-type: none;
+  overflow: hidden;
+  background-color:  #2a2a2a;
+}
+
+nav ul li{
+  margin: 0 4%;
+}
+
+nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1vh;
+  text-decoration: none;
+  font-size: 2vw;
+  margin: 5px 2px;
+
+}
+
+a {
+  display: inline;
+  color: rgb(159, 198, 248);
+}
+
+
+.current {
+  text-transform: uppercase;
+  background-color: rgb(159, 198, 248);
+  color: black
+}
+
+.grid{
+  margin:10px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 50px;
+  row-gap: 10px;
+}
+
+.grid div{
+  border: 10px solid #2a2a2a;
+  margin:25px 0px;
+  text-align: auto;
+}
+
+.grid h2{
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.grid p{
+  margin-bottom: 25px;
+}
+
+.grid img{
+  /* Set width, margin, and display */
+  width: 90%;
+  margin: auto;
+  display: block;
+  border: 5px dashed rgb(159, 198, 248);
+}
+
+dd{
+  font-size: 25px;
+  color:rgb(159, 198, 248);
+}
+
+dt{
+  font-size: 35px;
+  text-align: center;
+  background-color:  #2a2a2a;
+}
